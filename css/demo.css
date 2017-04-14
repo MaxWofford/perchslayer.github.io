@@ -75,7 +75,9 @@ h2 {
 				color: rgba( 255, 255, 255, 0.2 );
 			}
 
-/*** Hint graphic that appears while menu is inactive  */
+/**
+ * Hint graphic that appears while menu is inactive
+ */
 .meny-arrow {
 	position: absolute;
 	z-index: 10;
@@ -122,7 +124,9 @@ h2 {
 		        transition: opacity 0.2s ease;
 	}
 
-/*** Main contents area  */
+/**
+ * Main contents area
+ */
 .contents {
 	background: #eee;
 	padding: 20px 40px;
@@ -137,7 +141,7 @@ h2 {
 	   -moz-box-sizing: border-box;
 	        box-sizing: border-box;
 }
-	.contents > article {
+	.contents>article {
 		max-width: 400px;
 	}
 	.contents p {

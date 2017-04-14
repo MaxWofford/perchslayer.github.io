@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html> 
+<title>Hello, Strapdown</title> 
+<meta charset="utf-8">
+<xmp theme="cerulean" style="display:none;">
+
+# title
+
+your awesome markdown content goes here...
+
+</xmp> 
+<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
+</html>
+
+
+
+```html
+<link rel="stylesheet" href="/path/to/styles/default.css">
+<script src="/path/to/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+```
+
+This will find and highlight code inside of `<pre><code>` tags; it tries
+to detect the language automatically. If automatic detection doesn’t
+work for you, you can specify the language in the `class` attribute:
+
+```html
+<pre><code class="html">...</code></pre>
+```
